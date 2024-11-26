@@ -1,8 +1,7 @@
 # Projektauftrag
 
 ## Bezeichnung: 
-Lorem Ipsum - Digitale Visitenkarte
-"SYPPRE_Zwangsbeglückung"
+DigiCard
 
 ## Auftraggeber:
 Herr David Klewein
@@ -10,8 +9,16 @@ Herr David Klewein
 ## Projekthintergrund:
 SYPPRE Projekt der (nachstehend genannten) 3ACIF/T Schüler der HTL Leonding
 
+## Ausgangssituation
+
+Es kann oft schwierig sein, ein Portfolio mit passendem Design zu erstellen 
+und es schnell griffbereit zu haben. So wie Visitenkarten bieten wir ein digitales Portfolio
+das schnell durch einen QR-CODE abrufbar ist, und durch den Benutzer einfach
+aber zahlreich konfigurierbar ist.
+
 ## Projektendergebnis:
-Eine statische Webseite, die das Konzept unserer Webseite darstellen soll, und durch die wir das Umgehen mit HTML und CSS lernen
+Eine statische Webseite, die das Konzept unserer Webseite darstellen soll, 
+und durch die wir das Umgehen mit HTML und CSS lernen
 
 ## Projektziele:
 - Eine funktionierende, statische Webseite
@@ -39,7 +46,11 @@ Finanzielle Mittel: 0€
 0€
 
 ## Risiken: 
-Projektmitarbeiter brechen die Schule ab (schon passiert)
+Mitarbeiter springen ab 
+Arbeitsaufwand übersteigt Kapazitäten durch schulischen Druck
+Auftraggeber ist nicht mit der Vision einverstanden
+Interne Konflikte
+
 
 ## Projektorganisation:
 Projektleiter: Mido Zieser-Zerenko (selbsternannt) <br>
