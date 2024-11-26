@@ -49,11 +49,10 @@ Finanzielle Mittel: 0€
 Mitarbeiter springen ab 
 Arbeitsaufwand übersteigt Kapazitäten durch schulischen Druck
 Auftraggeber ist nicht mit der Vision einverstanden
-Interne Konflikte
-
+Interne Konflikte - Kulturelle Unterschiede, ALtersunterschiede
 
 ## Projektorganisation:
-Projektleiter: Mido Zieser-Zerenko (selbsternannt) <br>
+Projektleiter: Mido Zieser-Zerenko <br>
 Projektteam: Szilamér Bartók, Hamid Faru, Arwin Mohibe
 
 ## Abschluss des Projektauftrags:
