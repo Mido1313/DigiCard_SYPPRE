@@ -1,0 +1,24 @@
+1.
+Wahrscheinlich kennt jeder das Gefühl, mit einer neuen Bekanntschaft im Smalltalk verwickelt zu sein, 
+und sich über Leidenschaften, Projekte oder erfolgreiche Arbeitsaufträge auszutauschen. Dann kommt oft sehr plötzlich die Frage 
+"Haben Sie da Fotos davon" oder "Kann man sich das wo anschauen?"
+
+Nun ist man in der unangenehmen Situation, durch die Gallerie am Handy zu stöbern oder schnell die Dokumente zu durchwühlen und muss 
+dann meist verlegen zugeben, dass die am Heim-PC gespeichert sind, oder man die auf die Schnelle nicht findet. 
+
+2.
+Wir hatten die Idee, eine Webseite zu gestalten auf der man bequem alle Daten, Projekte, Portfolios und sonstige Dokumente an einem Ort ablegen kann.
+Wir stellen Designvorlagen zur Verfügung, die individuell anpassbar sind, sodass man sich nicht lange mit einem aufwendigen Layout herumschlagen muss,
+sondern einfach aus unseren Vorlagen etwas passendes auswählen kann und dieses individuell anpassenund befüllen kann. 
+
+3. 
+Wir legen großen Wert auf ein klares und modernes Konzept. Unser Design für die Portfolios ist flexibel, leicht anpassbar und benutzerfreundlich. 
+Farben und Texte können schnell geändert werden, und das Design bleibt übersichtlich und stilvoll gestaltet. Man hat mehrere Vorlagen zur Auswahl, 
+durch die man das Portfolio ganz nach Wunsch gestalten können. Im Anschluss kann man Texte, Links und Bilder einfügen, und schon kann das 
+Portfolio fertiggestellt und abgerufen werden. 
+
+4. 
+Für den nächsten Schritt unseres Projektes, haben wir vor, die QR-Code Generation zu implementieren und eine User-datenbank mit Login-Möglichkeit
+anzulegen. Dies ermöglicht unseren Kunden Ihre Porjekte mit nur einem Klick abzurufen, egal wo sie sich befinden,
+sowie mehrere Projekte auf demselben Konto abzuspeichern und die Designs nach der Fertigstellung wieder zu überarbeiten.
+
