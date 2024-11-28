@@ -13,9 +13,7 @@ sondern einfach aus unseren Vorlagen etwas passendes auswählen kann und dieses 
 
 3. 
 Wir legen großen Wert auf ein klares und modernes Konzept. Unser Design für die Portfolios ist flexibel, leicht anpassbar und benutzerfreundlich. 
-Farben und Texte können schnell geändert werden, und das Design bleibt übersichtlich und stilvoll gestaltet. Man hat mehrere Vorlagen zur Auswahl, 
-durch die man das Portfolio ganz nach Wunsch gestalten können. Im Anschluss kann man Texte, Links und Bilder einfügen, und schon kann das 
-Portfolio fertiggestellt und abgerufen werden. 
+Farben und Texte können schnell geändert werden, und das Design bleibt übersichtlich und stilvoll gestaltet. 
 
 4. 
 Für den nächsten Schritt unseres Projektes, haben wir vor, die QR-Code Generation zu implementieren und eine User-datenbank mit Login-Möglichkeit
