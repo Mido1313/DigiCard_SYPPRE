@@ -12,21 +12,22 @@ SYPPRE Projekt der (nachstehend genannten) 3ACIF/T Schüler der HTL Leonding
 ## Ausgangssituation
 
 Es kann oft schwierig sein, ein Portfolio mit passendem Design zu erstellen 
-und es schnell griffbereit zu haben. So wie Visitenkarten bieten wir ein digitales Portfolio
-das schnell durch einen QR-CODE abrufbar ist, und durch den Benutzer einfach
-aber zahlreich konfigurierbar ist.
+und es schnell griffbereit zu haben. So wie Visitenkarten bieten wir ein digitales Portfolio, das als Projektmanagementtool von Firmen genutzt werden kann, um Ihre Mitarbeiter besser zu vernetzen und sich einen schnelleren Überblick über den Arbeitsbereichs der Kollegen verschaffen zu können.
+Diese DigiCard ist schnell durch einen QR-CODE abrufbar, und durch den Mitarbeiter einfach
+aber zahlreich konfigurierbar.
 
 ## Projektendergebnis:
 Eine statische Webseite, die das Konzept unserer Webseite darstellen soll, 
 und durch die wir das Umgehen mit HTML und CSS lernen
 
 ## Projektziele:
-- Eine funktionierende, statische Webseite
+- Eine funktionierende, aber zunächst statische Webseite
 - Schablonen und Vorzeigedesigns für Voreinstellungen
 
 ## Nichtziele:
 - Inbetriebnahme der Webseite (QR-Code Generation)
 - Javascript
+- Speichern und Exportieren der Portfolios
 
 ## Hauptaufgaben und Meilensteine:
 - Coden der Grundstruktur in HTML
@@ -46,7 +47,7 @@ Finanzielle Mittel: 0€
 0€
 
 ## Risiken: 
-Mitarbeiter springen ab 
+Projektmitarbeiter springen ab 
 Arbeitsaufwand übersteigt Kapazitäten durch schulischen Druck
 Auftraggeber ist nicht mit der Vision einverstanden
 Interne Konflikte - Kulturelle Unterschiede, ALtersunterschiede

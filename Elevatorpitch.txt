@@ -1,10 +1,10 @@
 1.
-Wahrscheinlich kennt jeder das Gefühl, mit einer neuen Bekanntschaft im Smalltalk verwickelt zu sein, 
+Wahrscheinlich kennt jeder das Gefühl, mit neuen Kollegen oder Bekanntschaften -im Smalltalk verwickelt zu sein, 
 und sich über Leidenschaften, Projekte oder erfolgreiche Arbeitsaufträge auszutauschen. Dann kommt oft sehr plötzlich die Frage 
 "Haben Sie da Fotos davon" oder "Kann man sich das wo anschauen?"
 
 Nun ist man in der unangenehmen Situation, durch die Gallerie am Handy zu stöbern oder schnell die Dokumente zu durchwühlen und muss 
-dann meist verlegen zugeben, dass die am Heim-PC gespeichert sind, oder man die auf die Schnelle nicht findet. 
+dann meist verlegen zugeben, dass sie im Büro liegen sind, oder man die auf die Schnelle nicht findet. 
 
 2.
 Wir hatten die Idee, eine Webseite zu gestalten auf der man bequem alle Daten, Projekte, Portfolios und sonstige Dokumente an einem Ort ablegen kann.
@@ -17,6 +17,6 @@ Farben und Texte können schnell geändert werden, und das Design bleibt übersi
 
 4. 
 Für den nächsten Schritt unseres Projektes, haben wir vor, die QR-Code Generation zu implementieren und eine User-datenbank mit Login-Möglichkeit
-anzulegen. Dies ermöglicht unseren Kunden Ihre Porjekte mit nur einem Klick abzurufen, egal wo sie sich befinden,
+anzulegen. Dies ermöglicht unseren Kunden Ihre Projekte mit nur einem Klick abzurufen, egal wo sie sich befinden,
 sowie mehrere Projekte auf demselben Konto abzuspeichern und die Designs nach der Fertigstellung wieder zu überarbeiten.
 
