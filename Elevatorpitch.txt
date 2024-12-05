@@ -1,22 +1,15 @@
 1.
-Wahrscheinlich kennt jeder das Gefühl, mit neuen Kollegen oder Bekanntschaften -im Smalltalk verwickelt zu sein, 
-und sich über Leidenschaften, Projekte oder erfolgreiche Arbeitsaufträge auszutauschen. Dann kommt oft sehr plötzlich die Frage 
-"Haben Sie da Fotos davon" oder "Kann man sich das wo anschauen?"
-
-Nun ist man in der unangenehmen Situation, durch die Gallerie am Handy zu stöbern oder schnell die Dokumente zu durchwühlen und muss 
-dann meist verlegen zugeben, dass sie im Büro liegen sind, oder man die auf die Schnelle nicht findet. 
+Unsere Problemstellung war, dass es in großen Unternehmen oft dazu kommt, dass die Mitarbeiter verschiedener Abteilungen untereinander nicht kennen, und sogar die Chefitäten den Überblick verlieren, wer wo dazugehört und wer was macht. Um die Einsicht in Projekte, Vorhaben und Erfolge einzelner Mitarbeiter besser und einfacher zu machen, möchten wir eine Webseite gestalten, auf der jeder Mitarbeiter ein eigenes Profil bekommt, und in diesem sein Portfolio, Projekte, Erfolge, Steckbrief oder Biografie, etc. abspeichern kann. 
 
 2.
-Wir hatten die Idee, eine Webseite zu gestalten auf der man bequem alle Daten, Projekte, Portfolios und sonstige Dokumente an einem Ort ablegen kann.
 Wir stellen Designvorlagen zur Verfügung, die individuell anpassbar sind, sodass man sich nicht lange mit einem aufwendigen Layout herumschlagen muss,
-sondern einfach aus unseren Vorlagen etwas passendes auswählen kann und dieses individuell anpassenund befüllen kann. 
+sondern einfach aus unseren Vorlagen etwas passendes auswählen kann und dieses nach Geschmack individuell anpassen und befüllen kann. 
 
 3. 
 Wir legen großen Wert auf ein klares und modernes Konzept. Unser Design für die Portfolios ist flexibel, leicht anpassbar und benutzerfreundlich. 
 Farben und Texte können schnell geändert werden, und das Design bleibt übersichtlich und stilvoll gestaltet. 
 
 4. 
-Für den nächsten Schritt unseres Projektes, haben wir vor, die QR-Code Generation zu implementieren und eine User-datenbank mit Login-Möglichkeit
-anzulegen. Dies ermöglicht unseren Kunden Ihre Projekte mit nur einem Klick abzurufen, egal wo sie sich befinden,
-sowie mehrere Projekte auf demselben Konto abzuspeichern und die Designs nach der Fertigstellung wieder zu überarbeiten.
+Für den zukünftigen Weg unseres Projektes haben wir vor, die Designs interaktiv zu gestalten und eventuell eine QR-Code Generation zu implementieren damit die Profile schnell abrufbar sind, sowie eine User-Datenbank mit Login-Möglichkeit
+anzulegen. Dies ermöglicht es den Mitarbeitern Ihre Projekte mit nur einem Klick abzurufen, egal wo sie sich befinden, sowie mehrere Projekte auf demselben Konto abzuspeichern und die Designs nach der Fertigstellung wieder zu überarbeiten.
 
