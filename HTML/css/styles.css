@@ -1,0 +1,280 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and background */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #3A3535; /* Light warm cream */
+    color: #4E342E; /* Dark brown for text */
+    line-height: 1.6;
+}
+
+/* Link styling */
+a {
+    text-decoration: none;
+    color: #FF7043; /* Warm orange */
+}
+
+    a:hover {
+        color: #FF5722; /* Slightly darker orange on hover */
+    }
+
+/* Navigation */
+nav {
+    background-color: #DD6244; /* Warm orange */
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    nav div a {
+        font-size: 1.5rem;
+        color: #FFF;
+        font-weight: bold;
+    }
+
+    nav div ul {
+        list-style-type: none;
+        display: flex;
+    }
+
+        nav div ul li {
+            margin-left: 1.5rem;
+        }
+
+            nav div ul li a {
+                font-size: 1.2rem;
+                color: #FFF;
+            }
+
+/* Header (Masthead) */
+header {
+    background-color: #3A3535; /* Warm yellow */
+    padding: 4rem 2rem;
+    text-align: center;
+    color: #BA8475;
+}
+
+    header h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+
+        header h1 span {
+            color: #FF7043; /* Accent color */
+        }
+
+    header p {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+
+    header a {
+        font-size: 1.2rem;
+        background-color: #FF7043;
+        color: #FFF;
+        padding: 0.6rem 1.2rem;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+        header a:hover {
+            background-color: #FF5722;
+        }
+
+/* About Section */
+#about {
+    background-color: #DD6244; /* Soft warm orange */
+    padding: 4rem 2rem;
+    text-align: center;
+    width: calc(100% - 4cm); /* Ensures 2cm spacing on both sides */
+    margin: 2cm auto; /* Adds 2cm spacing above and below the section and centers it horizontally */
+    box-sizing: border-box; /* Ensures padding is included within the specified width */
+}
+
+    #about h2 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    #about p {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+
+    #about a {
+        font-size: 1.2rem;
+        background-color: #FF7043;
+        color: #FFF;
+        padding: 0.6rem 1.2rem;
+        border-radius: 5px;
+        text-decoration: none; /* Optional: removes underline from links */
+    }
+
+
+/* Portfolio Section */
+#portfolio {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Exactly 3 columns */
+    gap: 1.5rem; /* Spacing between items */
+    justify-content: center; /* Center the grid horizontally */
+    padding: 4rem 2rem;
+    width: fit-content; /* Shrink the grid to fit its content */
+    margin: 0 auto; /* Center the grid in the middle of the page */
+}
+
+    #portfolio div {
+        position: relative;
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        width: 250px; /* Fixed width for each image container */
+        height: 250px; /* Fixed height for each image container */
+    }
+
+        #portfolio div img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        #portfolio div:hover img {
+            transform: scale(1.1);
+        }
+
+        #portfolio div div {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: #FFF;
+            background-color: transparent; /* Removed the black overlay */
+            padding: 1rem;
+            border-radius: 5px;
+            white-space: nowrap; /* Prevents text from wrapping */
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8); /* Makes text more readable over images */
+        }
+
+            #portfolio div div div:first-child {
+                font-weight: bold;
+                margin-bottom: 0.5rem; /* Adds space between title and subtitle */
+            }
+
+
+/* Services Section */
+#services {
+    background-color: #FFCC80; /* Light warm orange */
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+    #services h2 {
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    #services div {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+        #services div div {
+            background-color: #FF7043;
+            color: #FFF;
+            padding: 2rem;
+            border-radius: 10px;
+            width: 22%;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+            #services div div:hover {
+                transform: translateY(-10px);
+            }
+
+            #services div div h3 {
+                font-size: 1.8rem;
+                margin-bottom: 1rem;
+            }
+
+            #services div div p {
+                font-size: 1.2rem;
+            }
+
+/* Contact Section */
+#contact {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+    #contact h2 {
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    #contact form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        margin-bottom: 2rem;
+    }
+
+        #contact form div {
+            position: relative;
+        }
+
+    #contact input, #contact textarea {
+        width: 100%;
+        padding: 1rem;
+        border-radius: 5px;
+        border: 2px solid #FF7043;
+        background-color: #FFF;
+        color: #4E342E;
+        font-size: 1rem;
+    }
+
+        #contact input:focus, #contact textarea:focus {
+            border-color: #FF5722;
+            outline: none;
+        }
+
+    #contact label {
+        position: absolute;
+        top: -10px;
+        left: 10px;
+        font-size: 0.9rem;
+        color: #FF7043;
+    }
+
+    #contact button {
+        background-color: #FF7043;
+        color: #FFF;
+        padding: 1rem;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        #contact button:hover {
+            background-color: #FF5722;
+        }
+
+/* Footer */
+footer {
+    background-color: #FF7043;
+    padding: 1.5rem 2rem;
+    color: #FFF;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
