@@ -1,31 +1,28 @@
-/* Reset some default styles */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body and background */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #3A3535; /* Light warm cream */
-    color: #4E342E; /* Dark brown for text */
+    background-color: #3A3535;
+    color: #4E342E; 
     line-height: 1.6;
 }
 
-/* Link styling */
 a {
     text-decoration: none;
-    color: #FF7043; /* Warm orange */
+    color: #FF7043; 
 }
 
     a:hover {
-        color: #FF5722; /* Slightly darker orange on hover */
+        color: #FF5722; 
     }
 
-/* Navigation */
 nav {
-    background-color: #DD6244; /* Warm orange */
+    background-color: #DD6244; 
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
@@ -52,9 +49,8 @@ nav {
                 color: #FFF;
             }
 
-/* Header (Masthead) */
 header {
-    background-color: #3A3535; /* Warm yellow */
+    background-color: #3A3535; 
     padding: 4rem 2rem;
     text-align: center;
     color: #BA8475;
@@ -66,7 +62,7 @@ header {
     }
 
         header h1 span {
-            color: #FF7043; /* Accent color */
+            color: #FF7043; 
         }
 
     header p {
@@ -87,14 +83,13 @@ header {
             background-color: #FF5722;
         }
 
-/* About Section */
 #about {
-    background-color: #DD6244; /* Soft warm orange */
+    background-color: #DD6244; 
     padding: 4rem 2rem;
     text-align: center;
-    width: calc(100% - 4cm); /* Ensures 2cm spacing on both sides */
-    margin: 2cm auto; /* Adds 2cm spacing above and below the section and centers it horizontally */
-    box-sizing: border-box; /* Ensures padding is included within the specified width */
+    width: calc(100% - 4cm); 
+    margin: 2cm auto; 
+    box-sizing: border-box; 
 }
 
     #about h2 {
@@ -113,19 +108,17 @@ header {
         color: #FFF;
         padding: 0.6rem 1.2rem;
         border-radius: 5px;
-        text-decoration: none; /* Optional: removes underline from links */
+        text-decoration: none; 
     }
 
-
-/* Portfolio Section */
 #portfolio {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Exactly 3 columns */
-    gap: 1.5rem; /* Spacing between items */
-    justify-content: center; /* Center the grid horizontally */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 1.5rem; 
+    justify-content: center; 
     padding: 4rem 2rem;
-    width: fit-content; /* Shrink the grid to fit its content */
-    margin: 0 auto; /* Center the grid in the middle of the page */
+    width: fit-content; 
+    margin: 0 auto; 
 }
 
     #portfolio div {
@@ -133,8 +126,8 @@ header {
         overflow: hidden;
         border-radius: 10px;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        width: 250px; /* Fixed width for each image container */
-        height: 250px; /* Fixed height for each image container */
+        width: 250px; 
+        height: 250px; 
     }
 
         #portfolio div img {
@@ -155,62 +148,63 @@ header {
             transform: translate(-50%, -50%);
             text-align: center;
             color: #FFF;
-            background-color: transparent; /* Removed the black overlay */
+            background-color: transparent;
             padding: 1rem;
             border-radius: 5px;
-            white-space: nowrap; /* Prevents text from wrapping */
-            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8); /* Makes text more readable over images */
+            white-space: nowrap;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8); 
         }
 
             #portfolio div div div:first-child {
                 font-weight: bold;
-                margin-bottom: 0.5rem; /* Adds space between title and subtitle */
+                margin-bottom: 0.5rem; 
             }
 
 
 /* Services Section */
 #services {
-    background-color: #FFCC80; /* Light warm orange */
+    background-color: #FFCC80; 
     padding: 4rem 2rem;
     text-align: center;
 }
 
-    #services h2 {
-        font-size: 2.5rem;
-        margin-bottom: 1.5rem;
-    }
+#services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
 
-    #services div {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        gap: 2rem;
-    }
+#services div {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem; 
+}
 
-        #services div div {
-            background-color: #FF7043;
-            color: #FFF;
-            padding: 2rem;
-            border-radius: 10px;
-            width: 22%;
-            text-align: center;
-            transition: transform 0.3s ease;
-        }
+#services div div {
+    background-color: #FF7043; 
+    color: #FFF;
+    padding: 2rem 2rem; 
+    border-radius: 10px;
+    width: 22%; 
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: 400px; 
+    width: 250px;
+}
 
-            #services div div:hover {
-                transform: translateY(-10px);
-            }
+#services div div h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem; 
+}
 
-            #services div div h3 {
-                font-size: 1.8rem;
-                margin-bottom: 1rem;
-            }
+#services div div p {
+    font-size: 1rem; 
+    line-height: 1.4; 
+    margin-top: 0rem;
+}
 
-            #services div div p {
-                font-size: 1.2rem;
-            }
-
-/* Contact Section */
 #contact {
     padding: 4rem 2rem;
     text-align: center;
@@ -269,7 +263,6 @@ header {
             background-color: #FF5722;
         }
 
-/* Footer */
 footer {
     background-color: #FF7043;
     padding: 1.5rem 2rem;
