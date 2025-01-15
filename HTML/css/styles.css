@@ -171,6 +171,7 @@ header {
 #services h2 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
+    color: #FF5722;
 }
 
 #services div {
@@ -183,6 +184,7 @@ header {
     background-color: #FF7043; 
     color: #FFF;
     padding: 2rem 2rem; 
+    margin-top: 2rem;
     border-radius: 10px;
     width: 22%; 
     text-align: center;
@@ -205,35 +207,55 @@ header {
     margin-top: 0rem;
 }
 
-#contact {
-    padding: 4rem 2rem;
+/*Contact forms*/
+#contact { /*subheading of COntact us*/
+    padding: 3rem 5rem;
     text-align: center;
+    color: #BA8475;
+    justify-content: center;
 }
+    #contact div { /*Phone number*/
+        color: #BA8475;
+        text-align: center;
+   
+    }
 
-    #contact h2 {
+    #contact h2 { /*This is the contact us heading . jesus maria und josef*/
         font-size: 2.5rem;
         margin-bottom: 1.5rem;
+        color: #FF5722;
     }
 
-    #contact form {
+    #contact form { /*boxes*/
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 1rem;
+        gap: 2rem;
         margin-bottom: 2rem;
+        margin-top: 3rem;
     }
 
-        #contact form div {
-            position: relative;
+        #contact form div { /*top of box text ??*/
+            position: sticky;
+            color: #FFF;
         }
 
-    #contact input, #contact textarea {
+    #contact input, #contact textarea { /*free textbox*/
         width: 100%;
         padding: 1rem;
         border-radius: 5px;
         border: 2px solid #FF7043;
         background-color: #FFF;
-        color: #4E342E;
+        color: #FF5722;
         font-size: 1rem;
+        margin-top: 1rem;
+        justify-content: right;
+    }
+
+    #contact textarea {
+        height: 55px;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
     }
 
         #contact input:focus, #contact textarea:focus {
@@ -241,27 +263,32 @@ header {
             outline: none;
         }
 
-    #contact label {
+    #contact label { /* ALSO TOP OF BOX TEXT???????*/
         position: absolute;
         top: -10px;
         left: 10px;
         font-size: 0.9rem;
-        color: #FF7043;
+        color: #FF5722;
     }
 
     #contact button {
-        background-color: #FF7043;
-        color: #FFF;
+        background-color: #DD6244;
+        color: #3A3535;
         padding: 1rem;
         border-radius: 5px;
         font-size: 1.2rem;
         cursor: pointer;
         transition: background-color 0.3s ease;
+        justify-content: center;
+        margin-top: 3rem;
+        position: center;
+        text-align: center;
     }
 
         #contact button:hover {
             background-color: #FF5722;
         }
+
 
 footer {
     background-color: #FF7043;
