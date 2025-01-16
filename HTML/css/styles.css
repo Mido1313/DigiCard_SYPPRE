@@ -18,7 +18,7 @@ a {
 }
 
     a:hover {
-        color: #FF5722; 
+        color: #3A3535; 
     }
 
 nav {
@@ -70,7 +70,7 @@ header {
         margin-bottom: 2rem;
     }
 
-    header a {
+    header a { /*learn more button */
         font-size: 1.2rem;
         background-color: #FF7043;
         color: #FFF;
@@ -81,6 +81,7 @@ header {
 
         header a:hover {
             background-color: #FF5722;
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
         }
 
 #about {
@@ -102,14 +103,21 @@ header {
         margin-bottom: 2rem;
     }
 
-    #about a {
+    #about a { /*button get started*/
         font-size: 1.2rem;
         background-color: #FF7043;
         color: #FFF;
         padding: 0.6rem 1.2rem;
         border-radius: 5px;
-        text-decoration: none; 
+        text-decoration: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
     }
+
+        #about a:hover {
+            background-color: #FF5722;
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        }
     /*PICTURES */
 #portfolio {
     display: grid;
@@ -168,13 +176,14 @@ header {
 #services {
     background-color: #FFCC80; 
     padding: 4rem 2rem;
-    text-align: center;
+    
 }
 
-#services h2 {
+#services h2 { /* Our features */
     font-size: 2.5rem;
     margin-bottom: 2rem;
     color: #FF5722;
+    text-align: center;
 }
 
 #services div {
@@ -183,6 +192,7 @@ header {
     gap: 1rem; 
 }
 
+   
 #services div div {
     background-color: #FF7043; 
     color: #FFF;
@@ -191,6 +201,7 @@ header {
     border-radius: 10px;
     width: 22%; 
     text-align: center;
+    vertical-align: text-top;
     display: flex;
     flex-direction: column; 
     justify-content: center; 
