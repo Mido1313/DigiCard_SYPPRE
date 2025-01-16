@@ -110,7 +110,7 @@ header {
         border-radius: 5px;
         text-decoration: none; 
     }
-
+    /*PICTURES */
 #portfolio {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
@@ -149,15 +149,18 @@ header {
             text-align: center;
             color: #FFF;
             background-color: transparent;
-            padding: 1rem;
+            padding: 2.5rem;
             border-radius: 5px;
             white-space: nowrap;
             text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8); 
+            margin-bottom: 4rem;
         }
 
-            #portfolio div div div:first-child {
+            #portfolio div div div {
                 font-weight: bold;
-                margin-bottom: 0.5rem; 
+                margin-bottom: 1rem;
+                padding: 1rem;
+                
             }
 
 
