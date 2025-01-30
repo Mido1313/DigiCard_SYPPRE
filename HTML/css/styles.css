@@ -27,6 +27,9 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+.nav-item a:hover {
+    color: #FFF;
+}
 
 nav div a {
     font-size: 1.5rem;
