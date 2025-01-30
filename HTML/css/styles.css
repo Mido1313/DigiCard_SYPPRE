@@ -27,6 +27,9 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+.nav-item a:hover {
+    color: #FFF;
+}
 
 nav div a {
     font-size: 1.5rem;
@@ -267,8 +270,8 @@ header a:hover {
     /*free textbox*/
     width: 100%;
     padding: 1rem;
-    border-radius: 5px;
-    border: 2px solid #FF7043;
+    border-radius: 0.4em;
+    border: 0.1em solid #FF7043;
     background-color: #FFF;
     color: #FF5722;
     font-size: 1rem;
@@ -277,7 +280,7 @@ header a:hover {
 }
 
 #contact textarea {
-    height: 55px;
+    height: 4em;
     display: flex;
     flex-direction: column;
     justify-content: right;
@@ -297,6 +300,24 @@ header a:hover {
     font-size: 0.9rem;
     color: #FF5722;
 }
+#name {
+    height: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+#email {
+    height: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+#phone {
+    height: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
 
 #contact button {
     background-color: #DD6244;
@@ -307,7 +328,7 @@ header a:hover {
     cursor: pointer;
     transition: background-color 0.3s ease;
     position: relative;
-    left: 75%;
+    left: 77%;
     width: 50%;
 
 }
