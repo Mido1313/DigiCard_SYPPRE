@@ -78,8 +78,10 @@ header a {
     background-color: #FF7043;
     color: #FFF;
     padding: 0.6rem 1.2rem;
-    border-radius: 5px;
+    border-radius: 10px;
     transition: background-color 0.3s ease;
+    text-decoration: none;
+    border-bottom: 2px solid #FF7043;
 }
 
 header a:hover {
@@ -112,7 +114,7 @@ header a:hover {
     background-color: #FF7043;
     color: #FFF;
     padding: 0.6rem 1.2rem;
-    border-radius: 5px;
+    border-radius: 10px;
     text-decoration: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
