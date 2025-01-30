@@ -277,7 +277,7 @@ header a:hover {
 }
 
 #contact textarea {
-    height: 55px;
+    height: 4em;
     display: flex;
     flex-direction: column;
     justify-content: right;
@@ -296,6 +296,24 @@ header a:hover {
     left: 10px;
     font-size: 0.9rem;
     color: #FF5722;
+}
+#name {
+    height: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+#email {
+    height: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+#phone {
+    height: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
 }
 
 #contact button {
