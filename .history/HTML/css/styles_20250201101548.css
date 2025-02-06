@@ -323,18 +323,15 @@ header a:hover {
 
 #contact button {
     background-color: #DD6244;
-    color: #FFF;
+    color: #3A3535;
     padding: 1rem;
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: 1.2rem;
-    text-align: center;
     cursor: pointer;
     transition: background-color 0.3s ease;
     position: relative;
-    left: 80%;
-    width: 45%;
-    border : none;
-   
+    left: 77%;
+    width: 50%;
 
 }
 

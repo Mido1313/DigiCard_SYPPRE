@@ -128,9 +128,7 @@ header a:hover {
 /*PICTURES */
 #portfolio {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
-    justify-content: center;
+     justify-content: center;
     padding: 4rem 2rem;
     width: fit-content;
     margin: 0 auto;
@@ -176,7 +174,9 @@ header a:hover {
     margin-bottom: 1rem;
     padding: 1rem;
 
-}
+} grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  
 
 
 /* Services Section */
@@ -323,18 +323,15 @@ header a:hover {
 
 #contact button {
     background-color: #DD6244;
-    color: #FFF;
+    color: #3A3535;
     padding: 1rem;
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: 1.2rem;
-    text-align: center;
     cursor: pointer;
     transition: background-color 0.3s ease;
     position: relative;
-    left: 80%;
-    width: 45%;
-    border : none;
-   
+    left: 77%;
+    width: 50%;
 
 }
 
