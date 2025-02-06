@@ -311,6 +311,7 @@ header a:hover {
     position: relative;
     left: 75%;
     width: 50%;
+    border : none;
 
 }
 
